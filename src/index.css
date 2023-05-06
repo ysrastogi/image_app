@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pattaya&family=Poppins&display=swap');
+
+/* Reset default margins and paddings */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Set a default font family and antialiasing */
+body {
+font-family: 'Poppins', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+/* Add some animation to the code blocks */
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+animation: code-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes code-pulse {
+from {
+transform: scale(1);
+}
+to {
+transform: scale(1.05);
+}
+}
